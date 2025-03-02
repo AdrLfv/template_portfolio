@@ -12,7 +12,7 @@ projects = [
         'image': 'project1.jpg',
         'long_description': 'Detailed description of project 1 including technologies, challenges, and solutions.',
         'technologies': ['Python', 'Flask', 'JavaScript'],
-        'github_link': 'https://github.com/AdrienLefevre/project1',
+        'github_link': 'https://github.com/AdrLfv/project1',
         'live_demo': 'https://project1.example.com',
     },
     {
@@ -22,7 +22,7 @@ projects = [
         'image': 'project2.jpg',
         'long_description': 'Detailed description of project 2 including technologies, challenges, and solutions.',
         'technologies': ['React', 'Node.js', 'MongoDB'],
-        'github_link': 'https://github.com/AdrienLefevre/project2',
+        'github_link': 'https://github.com/AdrLfv/project2',
         'live_demo': 'https://project2.example.com',
     },
     {
@@ -32,7 +32,7 @@ projects = [
         'image': 'project3.jpg',
         'long_description': 'Detailed description of project 3 including technologies, challenges, and solutions.',
         'technologies': ['Vue.js', 'Express', 'PostgreSQL'],
-        'github_link': 'https://github.com/AdrienLefevre/project3',
+        'github_link': 'https://github.com/AdrLfv/project3',
         'live_demo': 'https://project3.example.com',
     },
     {
@@ -42,7 +42,7 @@ projects = [
         'image': 'project4.jpg',
         'long_description': 'Detailed description of project 4 including technologies, challenges, and solutions.',
         'technologies': ['Angular', 'Django', 'SQLite'],
-        'github_link': 'https://github.com/AdrienLefevre/project4',
+        'github_link': 'https://github.com/AdrLfv/project4',
         'live_demo': 'https://project4.example.com',
     },
     {
@@ -52,7 +52,7 @@ projects = [
         'image': 'project5.jpg',
         'long_description': 'Detailed description of project 5 including technologies, challenges, and solutions.',
         'technologies': ['TypeScript', 'NestJS', 'MySQL'],
-        'github_link': 'https://github.com/AdrienLefevre/project5',
+        'github_link': 'https://github.com/AdrLfv/project5',
         'live_demo': 'https://project5.example.com',
     },
     {
@@ -62,7 +62,7 @@ projects = [
         'image': 'project6.jpg',
         'long_description': 'Detailed description of project 6 including technologies, challenges, and solutions.',
         'technologies': ['PHP', 'Laravel', 'MySQL'],
-        'github_link': 'https://github.com/AdrienLefevre/project6',
+        'github_link': 'https://github.com/AdrLfv/project6',
         'live_demo': 'https://project6.example.com',
     },
 ]

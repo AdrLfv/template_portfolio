@@ -1,6 +1,6 @@
-# Adrien Lefevre Portfolio
+# Template Portfolio
 
-A personal portfolio website built with Flask showcasing Adrien Lefevre's projects and professional information.
+A personal portfolio website built with Flask showcasing your projects and professional information.
 
 ## Features
 
@@ -15,7 +15,7 @@ A personal portfolio website built with Flask showcasing Adrien Lefevre's projec
 ## Project Structure
 
 ```
-adrien_portfolio/
+template_portfolio/
 ├── app.py              # Main Flask application
 ├── static/             # Static assets (CSS, JS, images)
 │   ├── css/            # Stylesheets
