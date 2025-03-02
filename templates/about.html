@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}About Me - Adrien Lefevre{% endblock %}
+
+{% block content %}
+<section class="about-section container">
+    <div class="about-image">
+        <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Adrien Lefevre">
+    </div>
+    <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Adrien Lefevre, a passionate developer with a strong interest in creating innovative solutions to complex problems. 
+            I have experience in developing web applications, mobile apps, and software solutions that deliver exceptional user experiences.
+        </p>
+        <p>
+            My journey in technology began when I was a teenager, tinkering with computers and learning to code. Since then, 
+            I've dedicated myself to continuously learning and improving my skills to stay at the forefront of technological advancements.
+        </p>
+        <p>
+            When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
+            or enjoying outdoor activities like hiking and photography.
+        </p>
+
+        <div class="skills">
+            <h3>My Skills</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Flask</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">RESTful APIs</span>
+                <span class="skill-tag">Responsive Design</span>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

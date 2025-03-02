@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact - Adrien Lefevre{% endblock %}
+
+{% block content %}
+<section class="contact-section container">
+    <div class="contact-header">
+        <h2>Get In Touch</h2>
+        <p>Feel free to reach out to me for collaborations, job opportunities, or just to say hi!</p>
+    </div>
+    
+    <div class="contact-content">
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h3>Email</h3>
+                    <p>contact@adrienlefevre.com</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h3>Phone</h3>
+                    <p>+33 6 12 34 56 78</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h3>Location</h3>
+                    <p>Paris, France</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://linkedin.com/in/adrien-lefevre" target="_blank">linkedin.com/in/adrien-lefevre</a></p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <div>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/AdrienLefevre" target="_blank">github.com/AdrienLefevre</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-form">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

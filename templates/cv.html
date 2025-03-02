@@ -1,0 +1,156 @@
+{% extends 'base.html' %}
+
+{% block title %}CV - Adrien Lefevre{% endblock %}
+
+{% block content %}
+<section class="cv-section container">
+    <div class="cv-header">
+        <h2>Curriculum Vitae</h2>
+        <p>My professional journey and qualifications</p>
+    </div>
+    
+    <div class="cv-content">
+        <div class="cv-left">
+            <h3 class="cv-section-title">Education</h3>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div>
+                        <div class="cv-item-title">Master's in Computer Science</div>
+                        <div class="cv-item-subtitle">University of Technology</div>
+                    </div>
+                    <div class="cv-item-date">2018 - 2020</div>
+                </div>
+                <div class="cv-item-description">
+                    Specialized in Software Engineering and Artificial Intelligence. Graduated with honors. 
+                    Final project focused on developing machine learning models for predictive analytics.
+                </div>
+            </div>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div>
+                        <div class="cv-item-title">Bachelor's in Computer Science</div>
+                        <div class="cv-item-subtitle">University of Science</div>
+                    </div>
+                    <div class="cv-item-date">2015 - 2018</div>
+                </div>
+                <div class="cv-item-description">
+                    Fundamental studies in programming, algorithms, data structures, and software development. 
+                    Participated in multiple hackathons and coding competitions.
+                </div>
+            </div>
+            
+            <h3 class="cv-section-title">Certifications</h3>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div>
+                        <div class="cv-item-title">AWS Certified Solutions Architect</div>
+                        <div class="cv-item-subtitle">Amazon Web Services</div>
+                    </div>
+                    <div class="cv-item-date">2022</div>
+                </div>
+            </div>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div>
+                        <div class="cv-item-title">Professional Scrum Master I</div>
+                        <div class="cv-item-subtitle">Scrum.org</div>
+                    </div>
+                    <div class="cv-item-date">2021</div>
+                </div>
+            </div>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div>
+                        <div class="cv-item-title">MongoDB Certified Developer</div>
+                        <div class="cv-item-subtitle">MongoDB, Inc.</div>
+                    </div>
+                    <div class="cv-item-date">2020</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cv-right">
+            <h3 class="cv-section-title">Professional Experience</h3>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div>
+                        <div class="cv-item-title">Senior Full Stack Developer</div>
+                        <div class="cv-item-subtitle">Tech Innovations Inc.</div>
+                    </div>
+                    <div class="cv-item-date">2022 - Present</div>
+                </div>
+                <div class="cv-item-description">
+                    Lead developer for multiple web applications using React, Node.js, and MongoDB. 
+                    Implemented CI/CD pipelines using GitHub Actions and Docker. 
+                    Mentored junior developers and conducted code reviews.
+                </div>
+            </div>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div>
+                        <div class="cv-item-title">Software Engineer</div>
+                        <div class="cv-item-subtitle">Digital Solutions Ltd.</div>
+                    </div>
+                    <div class="cv-item-date">2020 - 2022</div>
+                </div>
+                <div class="cv-item-description">
+                    Developed and maintained multiple web applications using Python, Flask, and PostgreSQL. 
+                    Implemented RESTful APIs and integrated third-party services. 
+                    Improved application performance by 40% through optimizations.
+                </div>
+            </div>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div>
+                        <div class="cv-item-title">Web Developer Intern</div>
+                        <div class="cv-item-subtitle">StartUp Hub</div>
+                    </div>
+                    <div class="cv-item-date">2019 - 2020</div>
+                </div>
+                <div class="cv-item-description">
+                    Assisted in developing front-end components using HTML, CSS, and JavaScript. 
+                    Contributed to the implementation of responsive designs and user interfaces. 
+                    Participated in daily stand-up meetings and sprint planning.
+                </div>
+            </div>
+            
+            <h3 class="cv-section-title">Languages</h3>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div class="cv-item-title">French</div>
+                    <div class="cv-item-subtitle">Native</div>
+                </div>
+            </div>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div class="cv-item-title">English</div>
+                    <div class="cv-item-subtitle">Fluent</div>
+                </div>
+            </div>
+            
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <div class="cv-item-title">Spanish</div>
+                    <div class="cv-item-subtitle">Intermediate</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cv-download">
+        <a href="{{ url_for('static', filename='adrien_lefevre_cv.pdf') }}" download class="btn">
+            <i class="fas fa-download"></i> Download CV
+        </a>
+    </div>
+</section>
+{% endblock %}

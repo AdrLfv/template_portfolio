@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Adrien Lefevre - Portfolio{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm a passionate developer creating innovative solutions. Explore my projects below to see my work.</p>
+    </div>
+</section>
+
+<section class="container">
+    <div class="projects-grid">
+        {% for project in projects %}
+        <div class="project-card">
+            <img src="{{ url_for('static', filename='images/projects/' + project.image) }}" alt="{{ project.title }}" class="project-image">
+            <div class="project-info">
+                <h3>{{ project.title }}</h3>
+                <p>{{ project.description }}</p>
+                <a href="{{ url_for('project', project_id=project.id) }}" class="btn">View Project</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
